@@ -26,6 +26,9 @@ public:
 
 	void setShouldMove(bool ShouldMove);
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool ShouldMove = false;
+	
 private:
 
 	UPROPERTY(EditAnywhere)
@@ -33,9 +36,6 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	float MoveTime = 4.f;
-
-	UPROPERTY(EditAnywhere)
-	bool ShouldMove = false;
 		
 	FVector OriginalLocation;
 };
