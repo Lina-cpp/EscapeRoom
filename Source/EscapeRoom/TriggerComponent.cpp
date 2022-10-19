@@ -21,6 +21,7 @@ void UTriggerComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAct
 {
     Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
+/*
     //sprawdzanie czy przedmiot ma odpoiwedni tag żeby otworzyć drzwi
     AActor* Actor = GetAcceptableActorTag();
     if (IsValid(Actor))
@@ -36,9 +37,12 @@ void UTriggerComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAct
     else
     {
         Mover->setShouldMove(false);
-    }    
+    }   
+    
+    */
 }
 
+/*
 //#CrashPosibility
 void UTriggerComponent::SetMover(UMover* NewMover)
 {
@@ -62,3 +66,5 @@ AActor* UTriggerComponent::GetAcceptableActorTag() const
 
     return nullptr;
 }
+
+*/

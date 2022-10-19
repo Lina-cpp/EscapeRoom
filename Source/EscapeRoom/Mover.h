@@ -8,7 +8,7 @@
 
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
-class ESCAPEROOM_API UMover : public USceneComponent
+class ESCAPEROOM_API UMover : public UActorComponent
 {
 	GENERATED_BODY()
 
@@ -34,6 +34,7 @@ private:
 	UPROPERTY(EditAnywhere)
 	float MoveTime = 4.f;
 
+	UPROPERTY(EditAnywhere)
 	bool ShouldMove = false;
 		
 	FVector OriginalLocation;

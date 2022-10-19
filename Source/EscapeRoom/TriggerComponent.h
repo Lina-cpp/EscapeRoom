@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Components/BoxComponent.h"
-#include "Mover.h"
+//#include "Mover.h"
 #include "TriggerComponent.generated.h"
 
 /**
@@ -22,9 +22,10 @@ protected:
 	virtual void BeginPlay() override;
 
 public:	
+
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
-
+/*
 	//#CrashPosibility
 	UFUNCTION(BlueprintCallable)
 	void SetMover(UMover* Mover);
@@ -39,5 +40,5 @@ private:
 	UMover* Mover;
 
 	AActor* GetAcceptableActorTag() const;
-	
+*/
 };
