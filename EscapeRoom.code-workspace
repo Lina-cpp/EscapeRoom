@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "EscapeRoom",
+			"path": "."
+		},
+		{
+			"name": "UE5",
+			"path": "E:\\UE5\\UE_5.0"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off"
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp"
+		]
+	}
+}
