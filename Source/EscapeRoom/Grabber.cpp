@@ -103,8 +103,8 @@ bool UGrabber::GetGrabbableInReach(FHitResult& OutHitResult) const
 {
 	FVector start = GetComponentLocation();
 	FVector end = start + GetForwardVector() * MaxGrabDistance;
-	DrawDebugLine( GetWorld(), start, end, FColor::Red );
-	DrawDebugSphere(GetWorld(), end, 10, 10, FColor::Blue, false, 5);
+	//DrawDebugLine( GetWorld(), start, end, FColor::Red );
+	//DrawDebugSphere(GetWorld(), end, 10, 10, FColor::Blue, false, 5);
 
 
 	
